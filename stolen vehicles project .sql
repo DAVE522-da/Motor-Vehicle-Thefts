@@ -39,6 +39,7 @@ GROUP BY
     DayOfWeek_Num, DayOfWeek_Name
 ORDER BY
     DayOfWeek_Num;
+--  bar chart that shows the number of vehicles stolen on each day of the week is in different file
 
 -- Step 2: Explore the vehicle type, age, luxury vs standard, and color fields in the stolen_vehicles table
 -- to identify which vehicles are most likely to be stolen.
@@ -77,6 +78,7 @@ INNER JOIN
     stolen_vehicles ON make_details.make_id = stolen_vehicles.make_id
 GROUP BY 
     vehicle_type;
+--  Heat map of the table comparing the vehicle types and colors is in a different file
 
 -- Step 3: Explore the population and density statistics in the regions table to identify where vehicles are getting stolen,
 -- and visualize the results using a scatter plot and map.
@@ -97,3 +99,4 @@ GROUP BY
     Density
 ORDER BY 
     Num_Vehicles_Stolen DESC;
+-- A map of the regions and color the regions based on the number of stolen vehicles is in a different file
