@@ -1,0 +1,27 @@
+vehicle_type,COUNT(vehicle_id)
+Trailer,582
+"Boat Trailer",105
+Roadbike,297
+Moped,187
+"Trailer - Heavy",90
+Caravan,44
+Hatchback,644
+Saloon,851
+Stationwagon,945
+Tractor,4
+"Trail Bike",2
+"Light Van",154
+"All Terrain Vehicle",5
+Utility,466
+"Other Truck",42
+"Sports Car",40
+"Flat Deck Truck",17
+"Light Bus",6
+"Mobile Home - Light",15
+Convertible,12
+"Heavy Van",7
+"Special Purpose Vehicle",1
+"Articulated Truck",1
+"Cab and Chassis Only",8
+"Mobile Machine",2
+NULL,26
